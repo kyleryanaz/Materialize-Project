@@ -1,8 +1,22 @@
 body {
   /*background-image: "../public/images/backdrop.jpg";*/
-  background-color: #b3e5fc;
+  background-color: #0e0e0e;
+  color: white;
+  .row {
+    text-align: center;
+    min-height: 50px;
 
+    .card {
+      .card-content {
+        color: black;
+      }
+    }
+
+    #cornerLogo {
+      padding: 25px;
+    }
+  }
   .nav-wrapper {
-    background-color: #363636;
+    background-color: #bbbbbb;
   }
 }
