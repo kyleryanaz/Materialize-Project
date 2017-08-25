@@ -13,19 +13,19 @@ app.get("/", function(req, res) {
   res.sendfile(path.resolve(__dirname + "/public/views/index.html"));
 });
 
-// about page
-app.get("/about", function(req, res) {
-  res.sendfile(path.resolve(__dirname + "/public/views/about.html"));
+// Nasa
+app.get("/nasa", function(req, res) {
+  res.sendfile(path.resolve(__dirname + "/public/views/nasa.html"));
 });
 
-// store page
-app.get("/store", function(req, res) {
-  res.sendfile(path.resolve(__dirname + "/public/views/store.html"));
+// SpaceX
+app.get("/spacex", function(req, res) {
+  res.sendfile(path.resolve(__dirname + "/public/views/spacex.html"));
 });
 
 // contact page
-app.get("/contact", function(req, res) {
-  res.sendfile(path.resolve(__dirname + "/public/views/contact.html"));
+app.get("/credits", function(req, res) {
+  res.sendfile(path.resolve(__dirname + "/public/views/credits.html"));
 });
 
 // error page
