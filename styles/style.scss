@@ -2,13 +2,16 @@ body {
   /*background-image: "../public/images/backdrop.jpg";*/
   background-color: #0e0e0e;
   color: white;
+
   .row {
     text-align: center;
     min-height: 50px;
-
-    .card {
-      .card-content {
-        color: black;
+    .col.s4 {
+      padding: auto;
+      .card {
+        .card-content {
+          color: black;
+        }
       }
     }
 
@@ -16,6 +19,7 @@ body {
       padding: 25px;
     }
   }
+
   .nav-wrapper {
     background-color: #bbbbbb;
   }
