@@ -14,18 +14,18 @@ app.get("/", function(req, res) {
 });
 
 // Nasa
-app.get("/nasa", function(req, res) {
-  res.sendfile(path.resolve(__dirname + "/public/views/nasa.html"));
+app.get("/videos", function(req, res) {
+  res.sendfile(path.resolve(__dirname + "/public/views/videos.html"));
 });
 
-// SpaceX
-app.get("/spacex", function(req, res) {
-  res.sendfile(path.resolve(__dirname + "/public/views/spacex.html"));
+// photos
+app.get("/photos", function(req, res) {
+  res.sendfile(path.resolve(__dirname + "/public/views/photos.html"));
 });
 
 // contact page
-app.get("/credits", function(req, res) {
-  res.sendfile(path.resolve(__dirname + "/public/views/credits.html"));
+app.get("/news", function(req, res) {
+  res.sendfile(path.resolve(__dirname + "/public/views/news.html"));
 });
 
 // error page

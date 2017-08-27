@@ -1,26 +1,5 @@
 body {
   /*background-image: "../public/images/backdrop.jpg";*/
-  background-color: #0e0e0e;
+  background-color: #212121;
   color: white;
-
-  .row {
-    text-align: center;
-    min-height: 50px;
-    .col.s4 {
-      padding: auto;
-      .card {
-        .card-content {
-          color: black;
-        }
-      }
-    }
-
-    #cornerLogo {
-      padding: 25px;
-    }
-  }
-
-  .nav-wrapper {
-    background-color: #bbbbbb;
-  }
 }
